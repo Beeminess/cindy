@@ -1,0 +1,341 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+ES+Deco&display=swap');
+
+html {
+    font-family: sans-serif;
+    font-size: 1.3em;
+    scroll-behavior: smooth;
+    background-image: url(../img/BG.jpg); 
+    color: rgb(255, 255, 255);
+}
+
+body {
+    margin: 0;
+}
+
+h1 {
+    color: hsl(0, 0%, 100%);
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 120%;
+}
+
+h2 {
+    color: hsl(0, 0%, 100%);
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+h3 {
+     color: hsl(0, 0%, 98%);
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: lighter;
+}
+
+h4 {
+    color: #512f2b;
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 200%;
+}
+h5 {
+    color: #512f2b;
+    font-family: sans-serif;
+    font-size: 110%;
+    font-weight: bolder;
+}
+
+h6 {
+    color: #512f2b;
+    font-family: sans-serif;
+    font-size: 120%;
+    font-weight: bold;
+}
+
+.header {
+ height: 90vh;
+ background-image: url(../img/Header.gif);
+ background-size: 102%;
+ text-align: center;
+ font-family:"Playwrite ES Deco";
+ background-attachment: fixed;
+ background-repeat: no-repeat;
+}
+
+.header h1 {
+    font-size: 2em;
+    text-align: center;
+    padding-top: 20vh;
+    margin-top: 0;
+    text-shadow: 10px 10px 20px rgb(255, 169, 194);
+    font-family:"Playwrite ES Deco";
+}
+
+.nav {
+    height: 10vh;
+    position: sticky;
+    top: 0;
+    background-color: rgb(123, 203, 193);
+    z-index: 9001;
+}
+
+.nav ol {
+    font-family:"Playwrite ES Deco";
+    margin: 0%;
+}
+
+.nav ol li{
+    display: inline-block;
+    margin: 20px 0 0 15px;
+    margin-top: 0px;
+    margin-right: 10px;
+    padding: 8px 20px;
+    border-radius: 7px;
+    
+}
+
+.nav ol li a{
+    color: rgb(255, 255, 255);
+    font-size: 1.2em;
+    text-decoration: none;
+    text-shadow: 0px 0px 10px rgb(52, 152, 129);
+}
+
+.nav ol li a:hover{
+    color: rgb(255, 255, 0);
+    text-shadow: 0px 0px 10px rgb(65, 154, 144);
+
+}
+
+.main {
+    width: 85%; 
+    margin: auto; 
+    background-color: #ff4a83;
+    border-left: 2px solid rgb(255, 168, 197);
+    border-right: 2px solid rgb(255, 167, 199);
+    padding: 15px;
+}
+
+section {
+    width: 85%; 
+    margin: auto; 
+    background-color: #ffa3c0;
+    border: 2px solid rgb(255, 255, 255);
+    padding: 18px;
+    border-radius: 1.6cap;
+}
+
+}
+
+.parent-box {
+    width: 90%; 
+    margin: auto; 
+    background-color: none;
+    border: 2px solid rgb(255, 255, 255);
+    position: relative;
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+    border: 2px solid none;
+    background-color: none;
+    margin: 10px;
+}
+
+.box--red {
+    background-color: rgb(159, 201, 255);
+}
+
+.box--blue {
+    background-color: rgb(108, 189, 255);
+}
+
+.box--green {
+    background-color: rgb(22, 177, 255);
+}
+
+.box--orange {
+    background-color: none;
+}
+
+.box--red_statistic{
+    position: static;
+    left: 400px;
+    top: 100px;
+}
+
+.box--red_relative {
+    position: relative;
+    left: 400px;
+    top: 50px;
+}
+
+.box--blue_absolute {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.box--green_fixed {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+.box--orange_fixed {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+
+.box--red_zindex{
+    left: 100px;
+    top: 100px;
+    position: relative;
+    z-index: 10;
+}
+
+.box--blue_zindex {
+    position: relative;
+    z-index: 11;
+}
+
+footer {
+    margin: 0px auto;
+    background: rgb(123, 203, 193);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: sticky;
+    z-index: 9001;
+    
+}
+
+footer div {
+    flex: 1; 
+}
+
+footer ol {
+    font-family:"Playwrite ES Deco";
+}
+
+footer ol li{
+    display: inline-block;
+    margin: 20px 0 0 15px;
+    margin-top: 10px;
+    margin-right: 10px;
+    padding: 8px 20px;
+    border-radius: 7px;
+    
+}
+
+footer ol li a{
+    color: rgb(255, 255, 255);
+    font-size: 1.2em;
+    text-decoration: none;
+    text-shadow: 0px 0px 10px rgb(52, 152, 129);
+}
+
+footer ol li a:hover{
+    color: rgb(255, 255, 0);
+    text-shadow: 0px 0px 10px rgb(65, 154, 144);
+
+}
+
+button{
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-family:"Playwrite ES Deco";
+    font-size: 1.3em;
+    background-color: rgb(78, 214, 198);
+    color: #ffffff;
+    border-radius: 0.6cap;
+    border-color: #ffffff;
+    
+}
+
+button:hover{
+    background-color: rgb(255, 146, 146);
+    color:hsl(27, 47%, 25%)
+}
+
+.contact{
+border-color: aquamarine;
+background: #000;
+}
+
+a:link {
+    color: none;
+    text-decoration: none;
+    }
+    a:visited {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    }
+    a:hover {
+    text-decoration: none;
+    color: rgb(91, 47, 30);
+    }
+    a:active {
+    text-decoration: none;
+    color: none;
+    }
+
+label {
+    text-align: center;
+    color: #f3ff4b;
+    font-family:"Playwrite ES Deco";
+    font-size: 100%;
+}
+
+input {
+    flex-wrap: wrap;
+}
+
+.flex {
+    display: flex;
+    text-align: left;
+    
+}
+
+.flex div {
+    border: 0.2cap solid #ff9d9d;
+    background-color: #fbffbe;
+    margin: 10px;
+    padding: 10px;
+    flex: 1;
+    border-radius: 1.5cap;
+}
+
+.flex div:nth-child(2) {
+    background-image: url(../img/763f24996dbce9dd14e3df6540c1ce26.jpg);
+    background-size: 100% 100%;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 300px 300px 300px;
+    gap: 20px;
+}
+.grid div{
+    border: 0.02px solid #ff5c7c;
+    background-image: url(../img/BG_shop.jpg);
+    margin: 10px;
+    border-radius: 1.5cap;
+    overflow-y: scroll;
+    overflow-x: inherit;
+    padding: 15px;
+
+}
+.grid div image {
+    width: 120%;
+    size: 100%;
+}
+
+

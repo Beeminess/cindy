@@ -255,6 +255,10 @@ button{
     background-color: rgb(78, 214, 198);
     color: #ffffff;
     border-radius: 0.6cap;
+    -webkit-border-radius: 0.6cap;
+    -moz-border-radius: 0.6cap;
+    -ms-border-radius: 0.6cap;
+    -o-border-radius: 0.6cap;
     border-color: #ffffff;
     
 }
